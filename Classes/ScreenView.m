@@ -25,7 +25,7 @@
     unsigned long hightable[256], lowtable[256];
     
     int width, height;
-    unsigned long *frameBuffer8888;
+    unsigned int *frameBuffer8888;
     CGColorSpaceRef colorSpace;
     CGDataProviderRef provider[2];
 	int currentProvider;
